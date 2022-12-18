@@ -61,6 +61,8 @@ img {
 	margin-left: auto;
 	padding-right: 15px;
 	padding-left: 15px;
+
+	outline: 3px solid tomato;
 }
 
 /* HEADER */
@@ -163,7 +165,13 @@ header .container{
 .hero {
 	padding-top: 192px;
 	padding-bottom:192px;  
+	margin-left: auto;
+	margin-right: auto;
 	background-color: var(--dark-navyblue-color);
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(/images/people-office\ 1.jpg);
+	background-repeat: no-repeat;
+	background-position: center; 
+	max-width: 1440px;
 }
 
  .hero .container {
@@ -217,6 +225,14 @@ header .container{
 	padding-bottom: 120px;
 }
 
+.features-wrapper{
+	/* display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center; */
+	
+}
+
 .features-list {
 	display: flex;
 }
@@ -227,10 +243,28 @@ header .container{
 	flex-direction: column;
 	align-items: flex-start;
 	padding: 0px;
-	gap: 8px;
 }
+
+.features-wrapper{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	background-color: var(--light-color);
+	border-radius: 4px;
+	width: 264px;
+	height: 112px;
+	object-position: center;
+}
+
+.icon{
+	max-width: 64px;
+	max-height: 64px;
+}
+
 .features-tittle {
 	width: 264px;
+	margin-top: 8px;
+	margin-bottom: 8px;
 
 	font-family: inherit;
 	font-weight: 500;
@@ -324,11 +358,36 @@ header .container{
 	color:var(--dark-navyblue-color);
 }
 .position {
+	margin-bottom: 8px;
+	
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color:var(--text-slate-color);
+
+}
+
+.social-link-list{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 0px;
+	gap: 24px;
+}
+
+.social-link{
+	display: flex;
+	background-color:var(--primary-iris-color);
+	border-radius: 50%;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+}
+.social-icon{
+	max-width: 16px;
+	min-height: 16px;
 }
 
 /* FOOTER */
