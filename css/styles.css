@@ -170,7 +170,7 @@ header .container{
 	padding-bottom:192px;  
 	margin: 0 auto;
 	background-color: var(--dark-navyblue-color);
-	background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(/images/people-office\ 1.jpg);
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
 	background-repeat: no-repeat;
 	background-position: center; 
 	max-width: 1440px;
